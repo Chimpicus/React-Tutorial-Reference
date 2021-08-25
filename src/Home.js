@@ -13,7 +13,6 @@ const Home = () => {
             {error}
             {isPending && <div>Loading...</div>}
             {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
-            {/* <BlogList blogs={blogs.filter((blog) => blog.author === 'mario')} title="Mario's Blogs!" /> */}
         </div>
     );
 }
